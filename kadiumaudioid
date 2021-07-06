@@ -49,6 +49,7 @@ Frame.BackgroundColor3 = Color3.fromRGB(164, 0, 2)
 Frame.BorderSizePixel = 0
 Frame.Position = UDim2.new(0.43629697, 0, 0.144212514, 0)
 Frame.Size = UDim2.new(0, 266, 0, 147)
+Frame.Active = true
 
 ScrollingFrame.Parent = Frame
 ScrollingFrame.Active = true
