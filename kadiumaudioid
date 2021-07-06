@@ -1,0 +1,419 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local AudiosID = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local ID1 = Instance.new("TextButton")
+local Shadow = Instance.new("Frame")
+local ID2 = Instance.new("TextButton")
+local Shadow_2 = Instance.new("Frame")
+local ID3 = Instance.new("TextButton")
+local Shadow_3 = Instance.new("Frame")
+local ID5 = Instance.new("TextButton")
+local Shadow_4 = Instance.new("Frame")
+local ID6 = Instance.new("TextButton")
+local Shadow_5 = Instance.new("Frame")
+local ID7 = Instance.new("TextButton")
+local Shadow_6 = Instance.new("Frame")
+local ID8 = Instance.new("TextButton")
+local Shadow_7 = Instance.new("Frame")
+local ID9 = Instance.new("TextButton")
+local Shadow_8 = Instance.new("Frame")
+local ID10 = Instance.new("TextButton")
+local Shadow_9 = Instance.new("Frame")
+local ID11 = Instance.new("TextButton")
+local Shadow_10 = Instance.new("Frame")
+local ID12 = Instance.new("TextButton")
+local Shadow_11 = Instance.new("Frame")
+local ID13 = Instance.new("TextButton")
+local Shadow_12 = Instance.new("Frame")
+local ID14 = Instance.new("TextButton")
+local Shadow_13 = Instance.new("Frame")
+local ID15 = Instance.new("TextButton")
+local Shadow_14 = Instance.new("Frame")
+local ID4 = Instance.new("TextButton")
+local Shadow_15 = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+
+--Properties:
+
+AudiosID.Name = "Audios ID"
+AudiosID.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Parent = AudiosID
+Frame.BackgroundColor3 = Color3.fromRGB(164, 0, 2)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.43629697, 0, 0.144212514, 0)
+Frame.Size = UDim2.new(0, 266, 0, 147)
+
+ScrollingFrame.Parent = Frame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(113, 0, 1)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0, 0, -0.0136054419, 0)
+ScrollingFrame.Size = UDim2.new(0, 266, 0, 147)
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 2.5, 0)
+
+ID1.Name = "ID1"
+ID1.Parent = ScrollingFrame
+ID1.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ID1.BorderSizePixel = 0
+ID1.Position = UDim2.new(0.02674946, 0, 0.0221030712, 0)
+ID1.Size = UDim2.new(0, 233, 0, 13)
+ID1.Font = Enum.Font.GothamSemibold
+ID1.Text = "6890545484"
+ID1.TextColor3 = Color3.fromRGB(0, 0, 0)
+ID1.TextSize = 14.000
+ID1.TextWrapped = true
+
+Shadow.Name = "Shadow"
+Shadow.Parent = ID1
+Shadow.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow.BorderSizePixel = 0
+Shadow.Position = UDim2.new(0, 0, 1, 0)
+Shadow.Size = UDim2.new(1, 0, 0, 4)
+
+ID2.Name = "ID2"
+ID2.Parent = ScrollingFrame
+ID2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ID2.BorderSizePixel = 0
+ID2.Position = UDim2.new(0.02674946, 0, 0.0846881047, 0)
+ID2.Size = UDim2.new(0, 233, 0, 13)
+ID2.Font = Enum.Font.GothamSemibold
+ID2.Text = "7015945783"
+ID2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ID2.TextSize = 14.000
+ID2.TextWrapped = true
+
+Shadow_2.Name = "Shadow"
+Shadow_2.Parent = ID2
+Shadow_2.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_2.BorderSizePixel = 0
+Shadow_2.Position = UDim2.new(0, 0, 1, 0)
+Shadow_2.Size = UDim2.new(1, 0, 0, 4)
+
+ID3.Name = "ID3"
+ID3.Parent = ScrollingFrame
+ID3.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ID3.BorderSizePixel = 0
+ID3.Position = UDim2.new(0.02674946, 0, 0.152715325, 0)
+ID3.Size = UDim2.new(0, 233, 0, 13)
+ID3.Font = Enum.Font.GothamSemibold
+ID3.Text = "6683148584"
+ID3.TextColor3 = Color3.fromRGB(0, 0, 0)
+ID3.TextSize = 14.000
+ID3.TextWrapped = true
+
+Shadow_3.Name = "Shadow"
+Shadow_3.Parent = ID3
+Shadow_3.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_3.BorderSizePixel = 0
+Shadow_3.Position = UDim2.new(0, 0, 1, 0)
+Shadow_3.Size = UDim2.new(1, 0, 0, 4)
+
+ID5.Name = "ID5"
+ID5.Parent = ScrollingFrame
+ID5.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ID5.BorderSizePixel = 0
+ID5.Position = UDim2.new(0.02674946, 0, 0.220742539, 0)
+ID5.Size = UDim2.new(0, 233, 0, 13)
+ID5.Font = Enum.Font.GothamSemibold
+ID5.Text = "6922641781"
+ID5.TextColor3 = Color3.fromRGB(0, 0, 0)
+ID5.TextSize = 14.000
+ID5.TextWrapped = true
+
+Shadow_4.Name = "Shadow"
+Shadow_4.Parent = ID5
+Shadow_4.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_4.BorderSizePixel = 0
+Shadow_4.Position = UDim2.new(0, 0, 1, 0)
+Shadow_4.Size = UDim2.new(1, 0, 0, 4)
+
+ID6.Name = "ID6"
+ID6.Parent = ScrollingFrame
+ID6.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ID6.BorderSizePixel = 0
+ID6.Position = UDim2.new(0.02674946, 0, 0.288769752, 0)
+ID6.Size = UDim2.new(0, 233, 0, 13)
+ID6.Font = Enum.Font.GothamSemibold
+ID6.Text = "4772173209"
+ID6.TextColor3 = Color3.fromRGB(0, 0, 0)
+ID6.TextSize = 14.000
+ID6.TextWrapped = true
+
+Shadow_5.Name = "Shadow"
+Shadow_5.Parent = ID6
+Shadow_5.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_5.BorderSizePixel = 0
+Shadow_5.Position = UDim2.new(0, 0, 1, 0)
+Shadow_5.Size = UDim2.new(1, 0, 0, 4)
+
+ID7.Name = "ID7"
+ID7.Parent = ScrollingFrame
+ID7.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ID7.BorderSizePixel = 0
+ID7.Position = UDim2.new(0.02674946, 0, 0.351354778, 0)
+ID7.Size = UDim2.new(0, 233, 0, 13)
+ID7.Font = Enum.Font.GothamSemibold
+ID7.Text = "6796974408"
+ID7.TextColor3 = Color3.fromRGB(0, 0, 0)
+ID7.TextSize = 14.000
+ID7.TextWrapped = true
+
+Shadow_6.Name = "Shadow"
+Shadow_6.Parent = ID7
+Shadow_6.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_6.BorderSizePixel = 0
+Shadow_6.Position = UDim2.new(0, 0, 1, 0)
+Shadow_6.Size = UDim2.new(1, 0, 0, 4)
+
+ID8.Name = "ID8"
+ID8.Parent = ScrollingFrame
+ID8.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ID8.BorderSizePixel = 0
+ID8.Position = UDim2.new(0.02674946, 0, 0.422103077, 0)
+ID8.Size = UDim2.new(0, 233, 0, 13)
+ID8.Font = Enum.Font.GothamSemibold
+ID8.Text = "6276695689"
+ID8.TextColor3 = Color3.fromRGB(0, 0, 0)
+ID8.TextSize = 14.000
+ID8.TextWrapped = true
+
+Shadow_7.Name = "Shadow"
+Shadow_7.Parent = ID8
+Shadow_7.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_7.BorderSizePixel = 0
+Shadow_7.Position = UDim2.new(0, 0, 1, 0)
+Shadow_7.Size = UDim2.new(1, 0, 0, 4)
+
+ID9.Name = "ID9"
+ID9.Parent = ScrollingFrame
+ID9.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ID9.BorderSizePixel = 0
+ID9.Position = UDim2.new(0.02674946, 0, 0.498293549, 0)
+ID9.Size = UDim2.new(0, 233, 0, 13)
+ID9.Font = Enum.Font.GothamSemibold
+ID9.Text = "6779379924"
+ID9.TextColor3 = Color3.fromRGB(0, 0, 0)
+ID9.TextSize = 14.000
+ID9.TextWrapped = true
+
+Shadow_8.Name = "Shadow"
+Shadow_8.Parent = ID9
+Shadow_8.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_8.BorderSizePixel = 0
+Shadow_8.Position = UDim2.new(0, 0, 1, 0)
+Shadow_8.Size = UDim2.new(1, 0, 0, 4)
+
+ID10.Name = "ID10"
+ID10.Parent = ScrollingFrame
+ID10.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ID10.BorderSizePixel = 0
+ID10.Position = UDim2.new(0.02674946, 0, 0.563599646, 0)
+ID10.Size = UDim2.new(0, 233, 0, 13)
+ID10.Font = Enum.Font.GothamSemibold
+ID10.Text = "6829025603"
+ID10.TextColor3 = Color3.fromRGB(0, 0, 0)
+ID10.TextSize = 14.000
+ID10.TextWrapped = true
+
+Shadow_9.Name = "Shadow"
+Shadow_9.Parent = ID10
+Shadow_9.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_9.BorderSizePixel = 0
+Shadow_9.Position = UDim2.new(0, 0, 1, 0)
+Shadow_9.Size = UDim2.new(1, 0, 0, 4)
+
+ID11.Name = "ID11"
+ID11.Parent = ScrollingFrame
+ID11.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ID11.BorderSizePixel = 0
+ID11.Position = UDim2.new(0.02674946, 0, 0.634347916, 0)
+ID11.Size = UDim2.new(0, 233, 0, 13)
+ID11.Font = Enum.Font.GothamSemibold
+ID11.Text = "6756871844"
+ID11.TextColor3 = Color3.fromRGB(0, 0, 0)
+ID11.TextSize = 14.000
+ID11.TextWrapped = true
+
+Shadow_10.Name = "Shadow"
+Shadow_10.Parent = ID11
+Shadow_10.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_10.BorderSizePixel = 0
+Shadow_10.Position = UDim2.new(0, 0, 1, 0)
+Shadow_10.Size = UDim2.new(1, 0, 0, 4)
+
+ID12.Name = "ID12"
+ID12.Parent = ScrollingFrame
+ID12.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ID12.BorderSizePixel = 0
+ID12.Position = UDim2.new(0.02674946, 0, 0.705096245, 0)
+ID12.Size = UDim2.new(0, 233, 0, 13)
+ID12.Font = Enum.Font.GothamSemibold
+ID12.Text = "2338495245"
+ID12.TextColor3 = Color3.fromRGB(0, 0, 0)
+ID12.TextSize = 14.000
+ID12.TextWrapped = true
+
+Shadow_11.Name = "Shadow"
+Shadow_11.Parent = ID12
+Shadow_11.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_11.BorderSizePixel = 0
+Shadow_11.Position = UDim2.new(0, 0, 1, 0)
+Shadow_11.Size = UDim2.new(1, 0, 0, 4)
+
+ID13.Name = "ID13"
+ID13.Parent = ScrollingFrame
+ID13.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ID13.BorderSizePixel = 0
+ID13.Position = UDim2.new(0.02674946, 0, 0.781286716, 0)
+ID13.Size = UDim2.new(0, 233, 0, 13)
+ID13.Font = Enum.Font.GothamSemibold
+ID13.Text = "2820832718"
+ID13.TextColor3 = Color3.fromRGB(0, 0, 0)
+ID13.TextSize = 14.000
+ID13.TextWrapped = true
+
+Shadow_12.Name = "Shadow"
+Shadow_12.Parent = ID13
+Shadow_12.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_12.BorderSizePixel = 0
+Shadow_12.Position = UDim2.new(0, 0, 1, 0)
+Shadow_12.Size = UDim2.new(1, 0, 0, 4)
+
+ID14.Name = "ID14"
+ID14.Parent = ScrollingFrame
+ID14.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ID14.BorderSizePixel = 0
+ID14.Position = UDim2.new(0.02674946, 0, 0.860198259, 0)
+ID14.Size = UDim2.new(0, 233, 0, 13)
+ID14.Font = Enum.Font.GothamSemibold
+ID14.Text = "4591631975"
+ID14.TextColor3 = Color3.fromRGB(0, 0, 0)
+ID14.TextSize = 14.000
+ID14.TextWrapped = true
+
+Shadow_13.Name = "Shadow"
+Shadow_13.Parent = ID14
+Shadow_13.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_13.BorderSizePixel = 0
+Shadow_13.Position = UDim2.new(0, 0, 1, 0)
+Shadow_13.Size = UDim2.new(1, 0, 0, 4)
+
+ID15.Name = "ID15"
+ID15.Parent = ScrollingFrame
+ID15.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ID15.BorderSizePixel = 0
+ID15.Position = UDim2.new(0.02674946, 0, 0.944552004, 0)
+ID15.Size = UDim2.new(0, 233, 0, 13)
+ID15.Font = Enum.Font.GothamSemibold
+ID15.Text = "6012629972"
+ID15.TextColor3 = Color3.fromRGB(0, 0, 0)
+ID15.TextSize = 14.000
+ID15.TextWrapped = true
+
+Shadow_14.Name = "Shadow"
+Shadow_14.Parent = ID15
+Shadow_14.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_14.BorderSizePixel = 0
+Shadow_14.Position = UDim2.new(0, 0, 1, 0)
+Shadow_14.Size = UDim2.new(1, 0, 0, 4)
+
+ID4.Name = "ID4"
+ID4.Parent = ScrollingFrame
+ID4.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ID4.BorderSizePixel = 0
+ID4.Position = UDim2.new(0.02674946, 0, 0.220742539, 0)
+ID4.Size = UDim2.new(0, 233, 0, 13)
+ID4.Font = Enum.Font.GothamSemibold
+ID4.Text = "6683178615"
+ID4.TextColor3 = Color3.fromRGB(0, 0, 0)
+ID4.TextSize = 14.000
+ID4.TextWrapped = true
+
+Shadow_15.Name = "Shadow"
+Shadow_15.Parent = ID4
+Shadow_15.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_15.BorderSizePixel = 0
+Shadow_15.Position = UDim2.new(0, 0, 1, 0)
+Shadow_15.Size = UDim2.new(1, 0, 0, 4)
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.906015038, 0, -0.142857149, 0)
+TextButton.Size = UDim2.new(0, 25, 0, 21)
+TextButton.Font = Enum.Font.GothamBold
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 14.000
+TextButton.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0, 0, -0.142857149, 0)
+TextLabel.Size = UDim2.new(0, 241, 0, 21)
+TextLabel.Font = Enum.Font.GothamSemibold
+TextLabel.Text = "Ka's random Audios ID He Found."
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+-- Scripts:
+
+local function JEHP_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+	
+end
+coroutine.wrap(JEHP_fake_script)()
+local function NMXJ_fake_script() -- Frame.Draggify 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+		dragToggle = nil
+		local dragSpeed = 0.50
+		dragInput = nil
+		dragStart = nil
+		local dragPos = nil
+		function updateInput(input)
+			local Delta = input.Position - dragStart
+			local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+			game:GetService("TweenService"):Create(Frame, TweenInfo.new(0), {Position = Position}):Play()
+		end
+		Frame.InputBegan:Connect(function(input)
+			if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+				dragToggle = true
+				dragStart = input.Position
+				startPos = Frame.Position
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						dragToggle = false
+					end
+				end)
+			end
+		end)
+		Frame.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+				dragInput = input
+			end
+		end)
+		game:GetService("UserInputService").InputChanged:Connect(function(input)
+			if input == dragInput and dragToggle then
+				updateInput(input)
+			end
+		end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(NMXJ_fake_script)()
